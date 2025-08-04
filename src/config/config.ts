@@ -3,7 +3,8 @@ conf();
 
 const _config = {
     PORT: process.env.port,
-    DATABE_URL: process.env.MONGODB_Connection_STRING
+    DATABE_URL: process.env.MONGODB_Connection_STRING,
+    ENV: process.env.NODE_ENV
 }
 
 
